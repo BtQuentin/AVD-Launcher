@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		664FCD1B2E17C7C7006E47A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664FCD042E17C7C6006E47A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664FCD0B2E17C7C6006E47A0;
+			remoteInfo = "AVD Launcher";
+		};
+		664FCD252E17C7C7006E47A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664FCD042E17C7C6006E47A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664FCD0B2E17C7C6006E47A0;
+			remoteInfo = "AVD Launcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664FCD0C2E17C7C6006E47A0 /* AVD Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVD Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664FCD1A2E17C7C7006E47A0 /* AVD LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVD LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664FCD242E17C7C7006E47A0 /* AVD LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVD LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		664FCD0E2E17C7C6006E47A0 /* AVD Launcher */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AVD Launcher";
+			sourceTree = "<group>";
+		};
+		664FCD1D2E17C7C7006E47A0 /* AVD LauncherTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AVD LauncherTests";
+			sourceTree = "<group>";
+		};
+		664FCD272E17C7C7006E47A0 /* AVD LauncherUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AVD LauncherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664FCD092E17C7C6006E47A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FCD172E17C7C7006E47A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FCD212E17C7C7006E47A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664FCD032E17C7C6006E47A0 = {
+			isa = PBXGroup;
+			children = (
+				664FCD0E2E17C7C6006E47A0 /* AVD Launcher */,
+				664FCD1D2E17C7C7006E47A0 /* AVD LauncherTests */,
+				664FCD272E17C7C7006E47A0 /* AVD LauncherUITests */,
+				664FCD0D2E17C7C6006E47A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664FCD0D2E17C7C6006E47A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664FCD0C2E17C7C6006E47A0 /* AVD Launcher.app */,
+				664FCD1A2E17C7C7006E47A0 /* AVD LauncherTests.xctest */,
+				664FCD242E17C7C7006E47A0 /* AVD LauncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664FCD0B2E17C7C6006E47A0 /* AVD Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664FCD2E2E17C7C7006E47A0 /* Build configuration list for PBXNativeTarget "AVD Launcher" */;
+			buildPhases = (
+				664FCD082E17C7C6006E47A0 /* Sources */,
+				664FCD092E17C7C6006E47A0 /* Frameworks */,
+				664FCD0A2E17C7C6006E47A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				664FCD0E2E17C7C6006E47A0 /* AVD Launcher */,
+			);
+			name = "AVD Launcher";
+			packageProductDependencies = (
+			);
+			productName = "AVD Launcher";
+			productReference = 664FCD0C2E17C7C6006E47A0 /* AVD Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664FCD192E17C7C7006E47A0 /* AVD LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664FCD312E17C7C7006E47A0 /* Build configuration list for PBXNativeTarget "AVD LauncherTests" */;
+			buildPhases = (
+				664FCD162E17C7C7006E47A0 /* Sources */,
+				664FCD172E17C7C7006E47A0 /* Frameworks */,
+				664FCD182E17C7C7006E47A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664FCD1C2E17C7C7006E47A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				664FCD1D2E17C7C7006E47A0 /* AVD LauncherTests */,
+			);
+			name = "AVD LauncherTests";
+			packageProductDependencies = (
+			);
+			productName = "AVD LauncherTests";
+			productReference = 664FCD1A2E17C7C7006E47A0 /* AVD LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		664FCD232E17C7C7006E47A0 /* AVD LauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664FCD342E17C7C7006E47A0 /* Build configuration list for PBXNativeTarget "AVD LauncherUITests" */;
+			buildPhases = (
+				664FCD202E17C7C7006E47A0 /* Sources */,
+				664FCD212E17C7C7006E47A0 /* Frameworks */,
+				664FCD222E17C7C7006E47A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664FCD262E17C7C7006E47A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				664FCD272E17C7C7006E47A0 /* AVD LauncherUITests */,
+			);
+			name = "AVD LauncherUITests";
+			packageProductDependencies = (
+			);
+			productName = "AVD LauncherUITests";
+			productReference = 664FCD242E17C7C7006E47A0 /* AVD LauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664FCD042E17C7C6006E47A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					664FCD0B2E17C7C6006E47A0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					664FCD192E17C7C7006E47A0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 664FCD0B2E17C7C6006E47A0;
+					};
+					664FCD232E17C7C7006E47A0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 664FCD0B2E17C7C6006E47A0;
+					};
+				};
+			};
+			buildConfigurationList = 664FCD072E17C7C6006E47A0 /* Build configuration list for PBXProject "AVD Launcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664FCD032E17C7C6006E47A0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 664FCD0D2E17C7C6006E47A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664FCD0B2E17C7C6006E47A0 /* AVD Launcher */,
+				664FCD192E17C7C7006E47A0 /* AVD LauncherTests */,
+				664FCD232E17C7C7006E47A0 /* AVD LauncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664FCD0A2E17C7C6006E47A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FCD182E17C7C7006E47A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FCD222E17C7C7006E47A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664FCD082E17C7C6006E47A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FCD162E17C7C7006E47A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FCD202E17C7C7006E47A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664FCD1C2E17C7C7006E47A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664FCD0B2E17C7C6006E47A0 /* AVD Launcher */;
+			targetProxy = 664FCD1B2E17C7C7006E47A0 /* PBXContainerItemProxy */;
+		};
+		664FCD262E17C7C7006E47A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664FCD0B2E17C7C6006E47A0 /* AVD Launcher */;
+			targetProxy = 664FCD252E17C7C7006E47A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		664FCD2C2E17C7C7006E47A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		664FCD2D2E17C7C7006E47A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		664FCD2F2E17C7C7006E47A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "AVD Launcher/AVD_Launcher.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X25389278Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AVD-Launcher-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AVD Launcher";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.quentin.AVD-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		664FCD302E17C7C7006E47A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "AVD Launcher/AVD_Launcher.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X25389278Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AVD-Launcher-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AVD Launcher";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.quentin.AVD-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		664FCD322E17C7C7006E47A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X25389278Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.quentin.AVD-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVD Launcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AVD Launcher";
+			};
+			name = Debug;
+		};
+		664FCD332E17C7C7006E47A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X25389278Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.quentin.AVD-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVD Launcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AVD Launcher";
+			};
+			name = Release;
+		};
+		664FCD352E17C7C7006E47A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X25389278Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.quentin.AVD-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AVD Launcher";
+			};
+			name = Debug;
+		};
+		664FCD362E17C7C7006E47A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X25389278Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bt.quentin.AVD-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AVD Launcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664FCD072E17C7C6006E47A0 /* Build configuration list for PBXProject "AVD Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664FCD2C2E17C7C7006E47A0 /* Debug */,
+				664FCD2D2E17C7C7006E47A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664FCD2E2E17C7C7006E47A0 /* Build configuration list for PBXNativeTarget "AVD Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664FCD2F2E17C7C7006E47A0 /* Debug */,
+				664FCD302E17C7C7006E47A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664FCD312E17C7C7006E47A0 /* Build configuration list for PBXNativeTarget "AVD LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664FCD322E17C7C7006E47A0 /* Debug */,
+				664FCD332E17C7C7006E47A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664FCD342E17C7C7006E47A0 /* Build configuration list for PBXNativeTarget "AVD LauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664FCD352E17C7C7006E47A0 /* Debug */,
+				664FCD362E17C7C7006E47A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664FCD042E17C7C6006E47A0 /* Project object */;
+}

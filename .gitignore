@@ -52,3 +52,6 @@ LineIDs.dbg.bak
 *.~u
 *.project.~u
 *.suo
+
+# MacOS DS_Store
+.DS_Store
