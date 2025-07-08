@@ -2,7 +2,7 @@
 //  AVD_LauncherApp.swift
 //  AVD Launcher
 //
-//  Created by Quentin BIHET on 04/07/2025.
+//  Created by BtQuentin on 08/07/2025.
 //
 
 import Foundation

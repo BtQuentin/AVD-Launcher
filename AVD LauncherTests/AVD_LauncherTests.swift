@@ -2,7 +2,7 @@
 //  AVD_LauncherTests.swift
 //  AVD LauncherTests
 //
-//  Created by Quentin BIHET on 04/07/2025.
+//  Created by BtQuentin on 08/07/2025.
 //
 
 import Testing
