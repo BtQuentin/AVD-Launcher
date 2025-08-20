@@ -39,10 +39,18 @@ struct AVDLauncherApp: App {
                 }
                 .frame(width: 300, height: 180)
         } label: {
-            Label(
-                "AVD Launcher",
-                systemImage: "iphone.motion"
-            )
+            Label{
+                Text("AVD Launcher")
+            } icon: {
+                let image: NSImage = {
+                    let ratio = $0.size.height / $0.size.width
+                    $0.size.height = 18
+                    $0.size.width = 18 / ratio
+                    return $0
+                }(NSImage(named: "MenuBarIcon")!)
+                
+                Image(nsImage: image)
+            }
         }
         .menuBarExtraStyle(.menu)
     }
@@ -95,17 +103,17 @@ func processOutput(output: String?, updateLines: @escaping ([String]) -> Void) {
         return
     }
 
-    // Découper la sortie en lignes
+    // Split output
     let lines = output.split(separator: "\n").map { String($0) }
 
-    // Mettre à jour l'état avec les lignes
+    // Update lines
     updateLines(lines)
 }
 
 func findEmulatorPath() -> String? {
     let env = ProcessInfo.processInfo.environment
 
-    // On essaie d'abord ANDROID_SDK_ROOT, sinon ANDROID_HOME
+    // Search for `emulator`
     if let sdkPath = env["HOME"] {
         let emulatorPath = "\(sdkPath)/Library/Android/sdk/emulator/emulator"
         if FileManager.default.fileExists(atPath: emulatorPath) {
